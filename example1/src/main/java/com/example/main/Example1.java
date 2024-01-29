@@ -9,7 +9,7 @@ public class Example1 {
     public static void main(String[] args) {
 
         Vehicle vehicle = new Vehicle();
-        vehicle.setName("Honda City");
+        vehicle.setName("Honda City1");
         System.out.println("Vehicle name from non-spring context is: " + vehicle.getName());
         /*
         The var keyword was introduced in Java 10. Type inference is used in
