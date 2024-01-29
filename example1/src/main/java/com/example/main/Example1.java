@@ -9,7 +9,7 @@ public class Example1 {
     public static void main(String[] args) {
 
         Vehicle vehicle = new Vehicle();
-        vehicle.setName("Honda City12");
+        vehicle.setName("Honda City123");
         System.out.println("Vehicle name from non-spring context is: " + vehicle.getName());
         /*
         The var keyword was introduced in Java 10. Type inference is used in
@@ -27,7 +27,7 @@ public class Example1 {
         If such a bean doesn’t exist,Spring will throw an exception.
         * */
         String hello = context.getBean(String.class);
-        System.out.println("String value from Spring Context is: " + hello);
+        System.out.println("String value from Spring Context is: " + hello123);
         Integer num = context.getBean(Integer.class);
         System.out.println("Integer value from Spring Context is: " + num);
 
